@@ -1,12 +1,21 @@
+'''Different data types in python are
+int, float, str, bool, complex
+'''
 
-var_int = 5 # Store integer type of data
+var_int = 5 # Stores integer type of data
 print(type(var_int))
-var_str = 'I am a string value' # Store string type of data
+
+var_str = 'I am a string value' # Stores string type of data
 print(type(var_str))
-var_float = 2.75 # Store decimal type of data
+
+var_float = 2.75 # Stores decimal type of data
 print(type(var_float))
-var_boolean = True # Store boolean type of data another value could be False
+
+var_boolean = True # Stores boolean type of data another value could be False
 print(type(var_boolean))
+
+var_complex = 3 + 5j # Stores complex type of data
+print(type(var_complex))
 
 # We can convert one data type to another in two ways : Implicit and Explicit conversion
 
